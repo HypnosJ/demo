@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_information"
+    app:startDestination="@id/information_fragment">
+
+    <fragment
+        android:id="@+id/information_fragment"
+        android:name="com.jacky.demohomework.ui.information.InformationFragment"
+        tools:layout="@layout/fragment_information" />
+
+    <fragment
+        android:id="@+id/settings_fragment"
+        android:name="com.jacky.demohomework.ui.information.SettingsFragment"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>
